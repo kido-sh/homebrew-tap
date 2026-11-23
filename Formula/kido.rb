@@ -1,5 +1,5 @@
 class Kido < Formula
-  desc "Run macOS command-line tools in small Darwin VMs, like Docker"
+  desc "Run macOS command-line tools in small Darwin VMs"
   homepage "https://kido.sh"
   url "https://github.com/kido-sh/kido/releases/download/v0.1.0/kido-0.1.0-darwin-arm64.tar.gz"
   sha256 "8ad4ecd1f66c0efc3946a9f458cd9f3f958392028867b228dd3219bf4e1ab03e"
