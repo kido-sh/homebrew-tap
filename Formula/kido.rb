@@ -1,8 +1,8 @@
 class Kido < Formula
   desc "Run macOS command-line tools in small Darwin VMs"
   homepage "https://kido.sh"
-  url "https://github.com/kido-sh/kido/releases/download/v0.2.0/kido-0.2.0-darwin-arm64.tar.gz"
-  sha256 "e86db4c7ce39bae52c7327619410b648e443d5fdac64a91932fe92f191fd3db2"
+  url "https://github.com/kido-sh/kido/releases/download/v0.3.0/kido-0.3.0-darwin-arm64.tar.gz"
+  sha256 "4f19fe44c800b3d7ea8e731f1939b47c3d2f85d88099670ce10606794efcd9d0"
   license "Apache-2.0"
 
   depends_on arch: :arm64
@@ -16,7 +16,7 @@ class Kido < Formula
 
   def caveats
     <<~EOS
-      Run `kido setup` once. It pulls the Darwin image, a download of about 40 MB.
+      Run `kido setup` once. It pulls the Darwin image, a download of about 30 MB.
     EOS
   end
 
