@@ -1,8 +1,8 @@
 class Kido < Formula
   desc "Run macOS command-line tools in small Darwin VMs"
   homepage "https://kido.sh"
-  url "https://github.com/kido-sh/kido/releases/download/v0.3.0/kido-0.3.0-darwin-arm64.tar.gz"
-  sha256 "4f19fe44c800b3d7ea8e731f1939b47c3d2f85d88099670ce10606794efcd9d0"
+  url "https://github.com/kido-sh/kido/releases/download/v0.4.0/kido-0.4.0-darwin-arm64.tar.gz"
+  sha256 "eaf3e1ed2fac9cb62e8df0abe2aa197412e91e874d88eba81636b519f80fb07c"
   license "Apache-2.0"
 
   depends_on arch: :arm64
